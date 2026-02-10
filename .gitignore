@@ -1,10 +1,63 @@
-# Maven
-target/
+# https://git-scm.com/docs/gitignore#_pattern_format
+# https://github.com/github/gitignore
 
-# Gradle
-.gradle/
-build/
+### Ignore ###
+**/__*
+
+### Jte ###
+jte-classes
+
+### Vite ###
+**/.vite-ssg-dist/
+**/.vite-ssg-temp/
+dist-ssr
+cypress/downloads
+
+### --------------------------------------------------------------------------- ###
+
+### Temp ###
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+*.local
+*.java~
+*.properties~
+*.xml~
+
+### Project ###
+**/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+**/target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+**/logs/
+!**/src/main/**/logs/
+!**/src/test/**/logs/
+
+### User ###
+.DS_Store
+Thumbs.db
+Servers
+.metadata
+
+### Gradle ###
+.gradle
 !gradle/wrapper/gradle-wrapper.jar
+
+### maven ###
+*.war
+
+### Node ###
+**/node_modules/
+
+### VitePress ###
+**/.vitepress/cache/
+**/.vitepress/dist/
+
+### --------------------------------------------------------------------------- ###
 
 ### STS ###
 .apt_generated
@@ -14,12 +67,23 @@ build/
 .settings
 .springBeans
 .sts4-cache
+**/bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
 
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
+**/out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### VS Code ###
+
+### HbuilderX ###
+.hbuilderx
 
 ### NetBeans ###
 /nbproject/private/
@@ -28,9 +92,7 @@ build/
 /nbdist/
 /.nb-gradle/
 
-### VSCode ###
-.vscode
+### VS Code ###
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+### Kotlin ###
+.kotlin
