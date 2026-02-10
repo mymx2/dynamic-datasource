@@ -12,7 +12,7 @@ hikariCPJava7 = { module = "com.zaxxer:HikariCP-java7", version = "2.4.13" }
 beecp = { module = "com.github.chris2018998:beecp", version = "3.4.2" }
 c3p0 = { module = "com.mchange:c3p0", version = "0.10.1" }
 oracleSpringBootStarterUcp = { module = "com.oracle.database.spring:oracle-spring-boot-starter-ucp", version = "23.4.0" }
-upc = { module = "com.oracle.database.jdbc:ucp", version = "23.9.0.25.07" }
+ucp = { module = "com.oracle.database.jdbc:ucp", version = "23.9.0.25.07" }
 commonsDbcp2 = { module = "org.apache.commons:commons-dbcp2", version = "2.13.0" }
 transactionsJdbc = { module = "com.atomikos:transactions-jdbc", version = "4.0.6" }
 mybatisPlus = { module = "com.baomidou:mybatis-plus", version = "3.5.14" }

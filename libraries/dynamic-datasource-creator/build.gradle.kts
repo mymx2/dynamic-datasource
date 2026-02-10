@@ -30,5 +30,5 @@ dependencies {
   compileOnly(depLibs.hikariCPJava7)
   compileOnly(depLibs.oracleSpringBootStarterUcp)
   compileOnly(depLibs.transactionsJdbc)
-  compileOnly(depLibs.upc)
+  compileOnly(depLibs.ucp)
 }

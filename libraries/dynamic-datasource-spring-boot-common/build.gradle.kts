@@ -26,7 +26,7 @@ dependencies {
   api("org.springframework.boot:spring-boot-autoconfigure")
   api("org.springframework:spring-aop")
   api(depLibs.oracleSpringBootStarterUcp)
-  api(depLibs.upc)
+  api(depLibs.ucp)
   compileOnly(depLibs.beecp)
   compileOnly(depLibs.c3p0)
   compileOnly(depLibs.commonsDbcp2)
